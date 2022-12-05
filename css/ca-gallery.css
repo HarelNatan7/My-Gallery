@@ -81,10 +81,11 @@ body {
 .offcanvas-btn-open {
     margin-right: 80vw;
 }
+/* red */
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(255, 255, 255);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -189,8 +190,8 @@ body {
 }
 header.masthead {
     text-align: center;
-    color: white;
-    background-image: url("../img/header-bg.jpg");
+    color: rgb(255, 255, 255);
+    background-image: url("../img/code.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -766,4 +767,7 @@ fieldset[disabled] .btn-xl:hover {
 .container {
     padding-right: 0;
     padding-left: 0;
+}
+#contact {
+    padding: 50px;
 }

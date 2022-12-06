@@ -20,7 +20,7 @@ function renderPortfoliosCards() {
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="./img/projects-img/${project.id}.PNG" alt="">
+          <img class="img-fluid" src="img/projects-img/${project.id}.png" alt="${project.name}">
         </a>
         <div class="portfolio-caption">
           <h4>${project.name}</h4>
